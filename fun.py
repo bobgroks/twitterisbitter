@@ -156,6 +156,7 @@ if __name__ == "__main__":
                 ["doge", [date(2021, 1, 27), date(2021, 2, 2)]],
                 ["doge", [date(2021, 4, 12), date(2021, 4, 16)]],
                 ]
+    join_lis = [["shib", [date(2021, 8, 22), date(2021, 8, 29)]]]
 
  
     load_dotenv()
