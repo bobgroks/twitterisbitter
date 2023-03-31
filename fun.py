@@ -139,7 +139,7 @@ if __name__ == "__main__":
                 ["shib", [date(2021, 8, 26), date(2021, 8, 29)]],
                 ["shib", [date(2021, 8, 2), date(2021, 8, 5)]],
                 ["shib", [date(2021, 8, 6), date(2021, 8, 8)]],
-                ["doge", [date(2020, 12, 19), date(2021, 12, 21)]],
+                ["doge", [date(2021, 12, 19), date(2021, 12, 21)]],
                 ["doge", [date(2021, 2, 3), date(2021, 2, 5)]],
                 ["doge", [date(2021, 2, 7), date(2021, 2, 9)]],
                 ["doge", [date(2020, 12, 31), date(2021, 1, 4)]],
@@ -157,7 +157,6 @@ if __name__ == "__main__":
                 ["doge", [date(2021, 4, 12), date(2021, 4, 16)]],
                 ]
 
-    date_lis = [["luna", [date(2022, 5, 1), date(2022, 5, 2)]]]
  
     load_dotenv()
     COIN_API = os.getenv("COIN_API")

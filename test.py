@@ -3,9 +3,6 @@ from collections import defaultdict
 import nltk
 from nltk import sentiment
 from nltk.sentiment import SentimentIntensityAnalyzer
-nltk.download("vader_lexicon")
-sia = SentimentIntensityAnalyzer()
-exit()
 
 l = [str(i) for i in range(10000000)]
 d = {str(i): True for i in range(10000000)}
@@ -30,3 +27,8 @@ except:
   pass
 
 print(f'defaultdict lookup took {time.monotonic_ns() - st}')
+
+
+def function(i:trader, i_n: information_received) -> List[trades]: 
+  ...
+Future_Price = Current_Price + sum([function(i, i_n) for i in range(market_participants)])
